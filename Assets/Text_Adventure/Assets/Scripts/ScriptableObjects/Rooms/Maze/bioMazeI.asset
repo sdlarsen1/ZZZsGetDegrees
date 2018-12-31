@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: bioMazeI
+  m_EditorClassIdentifier: 
+  description: 'This hallway is sideways. At least, that is your explanation as to
+    why there are lockers on the ceiling.
+
+'
+  roomName: bmi
+  exits:
+  - keyString: west
+    exitDescription: There is a door to the west.
+    valueRoom: {fileID: 11400000, guid: dd46e9e9ff5d9cb4bb2fa23a3c4095e2, type: 2}
+  - keyString: east
+    exitDescription: There is a door to the east.
+    valueRoom: {fileID: 11400000, guid: f6c7682921283c74da049632148a1819, type: 2}
+  interactableObjectsInRoom: []

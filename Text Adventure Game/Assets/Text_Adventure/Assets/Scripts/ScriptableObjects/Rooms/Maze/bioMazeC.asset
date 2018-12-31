@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: bioMazeC
+  m_EditorClassIdentifier: 
+  description: 'There is one of those emergency exit signs pointing north.
+
+'
+  roomName: bmc
+  exits:
+  - keyString: west
+    exitDescription: There is a door to the west.
+    valueRoom: {fileID: 11400000, guid: d1a810cf97ff67a49aa1be77d2739643, type: 2}
+  - keyString: north
+    exitDescription: There is a door to the north.
+    valueRoom: {fileID: 11400000, guid: 024a368b94a90c34c98351239ed4aae8, type: 2}
+  - keyString: south
+    exitDescription: There is a door to the south.
+    valueRoom: {fileID: 11400000, guid: 455118d493140114aa07a82782ae7c97, type: 2}
+  interactableObjectsInRoom: []

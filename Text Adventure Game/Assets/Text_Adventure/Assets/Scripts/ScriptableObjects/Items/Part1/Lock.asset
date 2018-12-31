@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd74b3a91ee3fa489d967fba002ec95, type: 3}
+  m_Name: Lock
+  m_EditorClassIdentifier: 
+  noun: lock
+  description: A gleaming lock shines from the bulkhead.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: c119f94d9f9f8cf4f8bae3ace55b0b5c, type: 2}
+    textResponse: 
+    actionResponse: {fileID: 11400000, guid: d36dbbdd9d8db4a4fb61b4e0743aa92c, type: 2}
+  - inputAction: {fileID: 11400000, guid: 692edf8698efc604abe2a49eeba67ad7, type: 2}
+    textResponse: You look at the combination lock. You pick up the cold steel in
+      your hands, reflecting on everything you've seen so far. Maybe the answer to
+      this confusing dreamscape lies on the other side of this door.
+    actionResponse: {fileID: 0}

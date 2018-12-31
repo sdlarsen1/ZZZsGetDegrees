@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: FAB
+  m_EditorClassIdentifier: 
+  description: 'The lock opens with a *click* and you make your way forward. As you
+    cross the threshold, the door slams behind you. No chance you''re going back the
+    way you came.
+
+
+    You enter the Tremendous Arts Building. There is a rock, a tiki head, and a pineapple
+    in the middle of the room. You wonder if this is supposed to be some form of modern
+    art.
+
+'
+  roomName: fab
+  exits:
+  - keyString: north
+    exitDescription: There is a door to the north
+    valueRoom: {fileID: 11400000, guid: a89cc0c05e983e24a881fb51902cb71b, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 44c3f4282df3aa548bb867f4ca1412cb, type: 2}
+  - {fileID: 11400000, guid: 15741ddb658c6d9438f901102c21528c, type: 2}
+  - {fileID: 11400000, guid: 53adfd07d9366c743887b0da49fe3236, type: 2}

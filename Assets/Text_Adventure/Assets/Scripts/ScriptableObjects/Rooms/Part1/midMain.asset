@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: midMain
+  m_EditorClassIdentifier: 
+  description: "You enter into TAXI, it\u2019s just as abandoned as the basement you
+    woke up in. This is weird, there is always someone here, even at 3 am on a weekend
+    there is always someone hanging around or sleeping on the soft chairs. Running
+    around to the far side of the atrium you finally see someone. A giant Panda. \n"
+  roomName: midMain
+  exits:
+  - keyString: south
+    exitDescription: There are stairs to the south.
+    valueRoom: {fileID: 11400000, guid: e6809e601df52024a943b13533308ef3, type: 2}
+  - keyString: north
+    exitDescription: There is a door to the north.
+    valueRoom: {fileID: 11400000, guid: 91fd0668c26ba84438560ed9b71b3e70, type: 2}
+  - keyString: east
+    exitDescription: There are stairs to the east.
+    valueRoom: {fileID: 11400000, guid: 7f3ce2ff6478c68478cc146c270dbfb4, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: ac1979d0722a8b544a6a0d3fc7e565e2, type: 2}

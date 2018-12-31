@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: bioMazeA
+  m_EditorClassIdentifier: 
+  description: 'This hallway has a memorial plaque. "In honour of those who gave their
+    lives to ensure this building was unsolveable."
+
+'
+  roomName: bma
+  exits:
+  - keyString: north
+    exitDescription: There is a door to the north.
+    valueRoom: {fileID: 11400000, guid: 2f1659f554c550d4ea426473c729bc7f, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 987606ccd02c9704e9bd39f3b6cdf806, type: 2}

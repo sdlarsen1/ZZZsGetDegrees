@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd74b3a91ee3fa489d967fba002ec95, type: 3}
+  m_Name: PandaEnd
+  m_EditorClassIdentifier: 
+  noun: panda
+  description: The panda looks at you with a tear in its eye.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 446e16a25ca67ec468922c3000355650, type: 2}
+    textResponse: "You've reached the end. You reclaimed m- I mean, your glory from
+      those wife-stealing beavers. You found a way out of ScioLie, also known as the
+      physical manifestation of an ethics lawsuit. And, you explored the error of
+      your ways in the Cunning Emu Centre for Nail Polish Remover. I hope you've learned
+      your lesson on what it takes to be a good student. \n\nAs for you, you're not
+      needed here anymore. Just say \"carry the two\" 3 times.\n\nOr, I guess you
+      could just go through the door behind me..."
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 692edf8698efc604abe2a49eeba67ad7, type: 2}
+    textResponse: 'It''s so proud of you.
+
+'
+    actionResponse: {fileID: 0}

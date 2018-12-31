@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: bioMazeJ
+  m_EditorClassIdentifier: 
+  description: 'You appear to have arrived in the south-west corner of the building,
+    but you aren''t even confident enough to say which way is up anymore.
+
+'
+  roomName: bmj
+  exits:
+  - keyString: west
+    exitDescription: There is a door to the west.
+    valueRoom: {fileID: 11400000, guid: 2f1659f554c550d4ea426473c729bc7f, type: 2}
+  - keyString: south
+    exitDescription: There is a door to the south.
+    valueRoom: {fileID: 11400000, guid: 3aeca12e06f735344b3c26d099bfe0f2, type: 2}
+  interactableObjectsInRoom: []

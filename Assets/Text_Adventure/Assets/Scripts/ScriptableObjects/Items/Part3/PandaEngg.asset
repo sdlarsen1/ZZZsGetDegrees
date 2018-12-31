@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd74b3a91ee3fa489d967fba002ec95, type: 3}
+  m_Name: PandaEngg
+  m_EditorClassIdentifier: 
+  noun: panda
+  description: The panda keeps waiting for you to talk to it.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 446e16a25ca67ec468922c3000355650, type: 2}
+    textResponse: 'Welcome to BTLC, the home of the beavers! As you explore the building,
+      you''ll notice how how many rooms there are. This is to house their superiority
+      complex.
+
+
+      God, I hate beavers. My neighbour was a beaver and he stole my wife, but that''s
+      not why you''re here. This is your final test! You must discover the three weaknesses
+      of the beavers and use them against their leader, the Dean, in order to reclaim
+      my glory! I mean your glory!
+
+
+      By the way, stay out of the Civil slums. Those beavers tend to be extra... spicy.'
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 692edf8698efc604abe2a49eeba67ad7, type: 2}
+    textResponse: It looks like it's also tired of your crap too.
+    actionResponse: {fileID: 0}

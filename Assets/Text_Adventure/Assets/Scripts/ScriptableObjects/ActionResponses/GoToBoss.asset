@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 837b760446d671440a69490eaf5ec048, type: 3}
+  m_Name: GoToBoss
+  m_EditorClassIdentifier: 
+  requiredStrings: []
+  successResponse: You step into the elevator with all the knowledge you've gained.
+    You press the button for the top floor and before you can process that you're
+    moving, the doors are opening. You step out of the elevator.
+  failResponse: The Panda pokes his head in and yells, "You can't fight the BOSS without
+    knowing his weaknesses!"
+  roomToChangeTo: {fileID: 11400000, guid: 66363d3739085574faefebda6a4f4021, type: 2}

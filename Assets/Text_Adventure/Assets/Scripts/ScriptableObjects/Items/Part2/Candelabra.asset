@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd74b3a91ee3fa489d967fba002ec95, type: 3}
+  m_Name: Candelabra
+  m_EditorClassIdentifier: 
+  noun: candelabra
+  description: In the corner of the room is a candelabra with a spattering of blood
+    on it.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 692edf8698efc604abe2a49eeba67ad7, type: 2}
+    textResponse: Upon further inspection you deduce that this, was in fact, the murder
+      weapon. All you need now is the culprit and the scene of the crime.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 77ee713737b439c46b8e57f096c3a74c, type: 2}
+    textResponse: You stash this 'clue' in your bag for later.
+    actionResponse: {fileID: 0}

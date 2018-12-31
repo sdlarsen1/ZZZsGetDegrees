@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: BOSS
+  m_EditorClassIdentifier: 
+  description: 'You once heard that during the height of its wealth, Venice was worth
+    trillions of modern dollars. This office would use Venice as a storage closet. '
+  roomName: bossroom
+  exits: []
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: ab8d695739c3bda44a14dc5b618ab623, type: 2}
+  - {fileID: 11400000, guid: 3eb4354c78a38c443a3f7c33baf2099e, type: 2}

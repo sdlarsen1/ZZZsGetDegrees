@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: cecOrgLab
+  m_EditorClassIdentifier: 
+  description: "Labs like this one really make you feel like a scientist when you
+    work in one. The counters and tables are lined with beakers and hooded chambers
+    and all sorts of other sciency stuff that you don\u2019t actually use all to much
+    but wouldn\u2019t be out of place in a CSI montage. There are a number of workstations
+    here, including Workstation 14.\n"
+  roomName: cecOrgLab
+  exits:
+  - keyString: west
+    exitDescription: There is a door to the west.
+    valueRoom: {fileID: 11400000, guid: 91fd0668c26ba84438560ed9b71b3e70, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 09e4630add0d8c749a35a0aab08e7153, type: 2}
+  - {fileID: 11400000, guid: 9acffa02efefa024b8c6d73892ef5a64, type: 2}

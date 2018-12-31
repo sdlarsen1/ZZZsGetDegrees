@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd74b3a91ee3fa489d967fba002ec95, type: 3}
+  m_Name: VirtualBoy
+  m_EditorClassIdentifier: 
+  noun: virtualboy
+  description: There is a VirtualBoy mounted onto what appears to be an electric chair.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 77ee713737b439c46b8e57f096c3a74c, type: 2}
+    textResponse: You stash the VirtualBoy into your bag. You'll have to find a suitable
+      volcano to destroy it in.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 692edf8698efc604abe2a49eeba67ad7, type: 2}
+    textResponse: A relic from the '90s. This VirtualBoy is an ancient piece of VR
+      technology designed by BIbtendo to give people migraines, thus forcing them
+      to go outside. Surprisingly, it wasn't well received.
+    actionResponse: {fileID: 0}

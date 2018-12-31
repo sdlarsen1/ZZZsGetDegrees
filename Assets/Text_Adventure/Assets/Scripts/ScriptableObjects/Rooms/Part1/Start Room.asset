@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: Start Room
+  m_EditorClassIdentifier: 
+  description: "  ___________________        _____      _     _____                                 \r\n
+    |___  /___  /___  ( )      / ____|    | |   |  __ \\                                \r\n
+    \   / /   / /   / /|/ ___  | |  __  ___| |_  | |  | | ___  __ _ _ __ ___  ___
+    \ ___  \r\n   / /   / /   / /   / __| | | |_ |/ _ \\ __| | |  | |/ _ \\/ _` |
+    '__/ _ \\/ _ \\/ __| \r\n  / /__ / /__ / /__  \\__ \\ | |__| |  __/ |_  | |__|
+    |  __/ (_| | | |  __/  __/\\__ \\ \r\n /_____/_____/_____| |___/  \\_____|\\___|\\__|
+    |_____/ \\___|\\__, |_|  \\___|\\___||___/ \r\n                                                           __/
+    |                    \r\n                                                          |___/
+    \                    \r\n\r\n                                                                      \nType
+    \"open eyes\" to start a new game or \"load\" to start from where you left off.
+    You can type \"help\" at any point to get a list of commands."
+  roomName: Start Room
+  exits:
+  - keyString: eyes
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 7f3ce2ff6478c68478cc146c270dbfb4, type: 2}
+  - keyString: maze
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 3c79f3562c17efc438ef26caa69f4afa, type: 2}
+  - keyString: engg
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: 5a40946ec5c138742a95e9ad2e0cb234, type: 2}
+  - keyString: sci
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: a89cc0c05e983e24a881fb51902cb71b, type: 2}
+  - keyString: bmb
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: d1a810cf97ff67a49aa1be77d2739643, type: 2}
+  - keyString: csc
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: fceee51dcde035a49998e2ce1fce139c, type: 2}
+  - keyString: fab
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: d71286e474621c740ad7ccbe82841892, type: 2}
+  interactableObjectsInRoom: []

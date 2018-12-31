@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd74b3a91ee3fa489d967fba002ec95, type: 3}
+  m_Name: Laptop
+  m_EditorClassIdentifier: 
+  noun: laptop
+  description: On a 3-legged combintion bench-table, there lies a laptop covered in
+    beaver stickers.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 692edf8698efc604abe2a49eeba67ad7, type: 2}
+    textResponse: 'There are two tabs open: The first is the requirements document
+      for a 100-word essay. The other is a blank word document. You get the feeling
+      that beavers are bad at writing if they''re stumped by 100 words'
+    actionResponse: {fileID: 11400000, guid: d1be5007a9a320044be04b73409d9ba5, type: 2}

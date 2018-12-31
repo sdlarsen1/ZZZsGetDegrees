@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: Diaz Library
+  m_EditorClassIdentifier: 
+  description: "It's still dark out when you open your eyes, you can't have been asleep
+    for too long, though it looks like you are the last one left in the Diaz Library.
+    Something isn\u2019t right with this scene but you can't put your finger on it,
+    maybe if you went for a walk to clear your head? Find someone to talk to?\n"
+  roomName: Diaz Library
+  exits:
+  - keyString: west
+    exitDescription: There are stairs to the west.
+    valueRoom: {fileID: 11400000, guid: ef6f4e53d7f04e34b94c5bd878da9049, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: be638004856d26743a065d02c05e13d6, type: 2}

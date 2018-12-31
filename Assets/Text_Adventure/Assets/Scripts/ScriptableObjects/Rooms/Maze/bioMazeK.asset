@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: bioMazeK
+  m_EditorClassIdentifier: 
+  description: 'Two hallways intersect here, but looking closer at both of them you
+    find you can''t tell the two apart.
+
+'
+  roomName: bmk
+  exits:
+  - keyString: north
+    exitDescription: There is a door to the north.
+    valueRoom: {fileID: 11400000, guid: ce8fac22909b0c44ea85ac45b7b2dc2a, type: 2}
+  - keyString: east
+    exitDescription: There is a door to the east.
+    valueRoom: {fileID: 11400000, guid: 3c79f3562c17efc438ef26caa69f4afa, type: 2}
+  - keyString: south
+    exitDescription: There is a door to the south.
+    valueRoom: {fileID: 11400000, guid: 82ee8e2d6b092704e831cb41e7005b63, type: 2}
+  - keyString: west
+    exitDescription: There is a door to the west.
+    valueRoom: {fileID: 11400000, guid: c3b438072d59a1346b514f4352d50a7b, type: 2}
+  interactableObjectsInRoom: []

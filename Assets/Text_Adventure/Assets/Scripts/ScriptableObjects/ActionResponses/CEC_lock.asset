@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 104e3b3322895a2478bb1f0cdbd6adf9, type: 3}
+  m_Name: CEC_lock
+  m_EditorClassIdentifier: 
+  requiredStrings:
+  - cecHallway
+  - 37-09-14
+  successResponse: 
+  failResponse: Hmm. Nothing happens. Maybe try the XX-XX-XX format from the riddle?
+    Or look around for more clues.
+  roomToChangeTo: {fileID: 11400000, guid: d71286e474621c740ad7ccbe82841892, type: 2}

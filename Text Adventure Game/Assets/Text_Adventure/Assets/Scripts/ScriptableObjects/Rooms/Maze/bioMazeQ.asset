@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: bioMazeQ
+  m_EditorClassIdentifier: 
+  description: "You're not sure how you got here, but this hallway has a nice selection
+    of couches and an abundence of power outlets. \n"
+  roomName: bmq
+  exits:
+  - keyString: north
+    exitDescription: There is a door to the north.
+    valueRoom: {fileID: 11400000, guid: f2739ecd49b03fb4e84d17da4f00ac90, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 5b836d4a06e1d5e498fd71361f3bba0d, type: 2}

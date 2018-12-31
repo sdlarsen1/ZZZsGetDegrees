@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: SenateRoom
+  m_EditorClassIdentifier: 
+  description: "This room is adorned with all the wealth of the Roman Senate. Naked
+    statues, grand architecture, lavish couches, and all the loot taken from other
+    departments fill the room. \n"
+  roomName: 
+  exits:
+  - keyString: south
+    exitDescription: There is a stairway to the south.
+    valueRoom: {fileID: 11400000, guid: 5a40946ec5c138742a95e9ad2e0cb234, type: 2}
+  - keyString: north
+    exitDescription: There is a doorway to the north.
+    valueRoom: {fileID: 11400000, guid: 3f321269c3850f246902c04199f2a5ef, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: b109851543cb44691afd3d711f600238, type: 2}
+  - {fileID: 11400000, guid: 3f6dcc8227e764145a17c9b62e3cfac4, type: 2}
+  - {fileID: 11400000, guid: ebc2fa63459d5c44289bcc6022703a29, type: 2}

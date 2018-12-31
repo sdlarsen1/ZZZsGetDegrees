@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: Final Panda Room
+  m_EditorClassIdentifier: 
+  description: You are back where you started. Diaz Library. You think "OMG WHY IS
+    THIS PANDA HERE AGAIN"
+  roomName: 
+  exits:
+  - keyString: north
+    exitDescription: There is a door to the north
+    valueRoom: {fileID: 11400000, guid: acb7f5acb4450f6459dd0d7fadba1ec7, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 1ecdc2281efdc3f41a0846778c38178d, type: 2}

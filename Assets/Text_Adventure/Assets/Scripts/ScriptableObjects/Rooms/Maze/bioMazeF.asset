@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: bioMazeF
+  m_EditorClassIdentifier: 
+  description: 'The is a large map displayed on the wall, unfortunately it is a map
+    of the Education building.
+
+'
+  roomName: bmf
+  exits:
+  - keyString: west
+    exitDescription: There is a door to the west.
+    valueRoom: {fileID: 11400000, guid: 497aac3256a90b24dad566dc02d5f30f, type: 2}
+  - keyString: east
+    exitDescription: There is a door to the east.
+    valueRoom: {fileID: 11400000, guid: 455118d493140114aa07a82782ae7c97, type: 2}
+  - keyString: south
+    exitDescription: There is a door to the south.
+    valueRoom: {fileID: 11400000, guid: 34fc862787216df47a2312e2dfaa175a, type: 2}
+  interactableObjectsInRoom: []

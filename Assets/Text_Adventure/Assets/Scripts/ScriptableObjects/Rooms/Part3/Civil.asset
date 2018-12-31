@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: Civil
+  m_EditorClassIdentifier: 
+  description: 'Unlike the rest of the building this room is a cramped and downtrodden
+    slum. On a broken board over the door is scratched the word "Civil."
+
+'
+  roomName: 
+  exits:
+  - keyString: east
+    exitDescription: There is a doorway to the east.
+    valueRoom: {fileID: 11400000, guid: 3f321269c3850f246902c04199f2a5ef, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: aaf77291f987049c4abf11893f7baca8, type: 2}
+  - {fileID: 11400000, guid: c43388a2123d8434d9b9017d39567a1a, type: 2}
+  - {fileID: 11400000, guid: 6ed21849767f7443fabb02e716c7fad2, type: 2}

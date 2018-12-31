@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150847a897f5a6f479f826e9c1bdc30b, type: 3}
+  m_Name: GoToFinalRoom
+  m_EditorClassIdentifier: 
+  requiredStrings: []
+  successResponse: Having defeated the beaver, you walk confidently through the door.
+  failResponse: 'The beaver snaps at you.
+
+
+    "Get away from there! You cannot go through this door!"'
+  roomToChangeTo: {fileID: 11400000, guid: edc4fd3594584c74580c9090ab1df2a5, type: 2}

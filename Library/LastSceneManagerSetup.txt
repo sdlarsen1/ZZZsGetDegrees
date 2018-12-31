@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Text_Adventure/Assets/Main.unity
+  isLoaded: 1
+  isActive: 1

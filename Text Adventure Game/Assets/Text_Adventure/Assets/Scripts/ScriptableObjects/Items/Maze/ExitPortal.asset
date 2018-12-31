@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd74b3a91ee3fa489d967fba002ec95, type: 3}
+  m_Name: ExitPortal
+  m_EditorClassIdentifier: 
+  noun: portal
+  description: 'There is a portal labeled ''Exit.'' '
+  interactions:
+  - inputAction: {fileID: 11400000, guid: c119f94d9f9f8cf4f8bae3ace55b0b5c, type: 2}
+    textResponse: 
+    actionResponse: {fileID: 11400000, guid: 02757b68a7d0fe24cb3a111bc0fc0484, type: 2}
+  - inputAction: {fileID: 11400000, guid: 692edf8698efc604abe2a49eeba67ad7, type: 2}
+    textResponse: 'Normally you''d wonder how the univeristy could possibly afford
+      something like this, but throughout this journey you''ve learned it''s better
+      to just go with it.
+
+
+      There is another sign to the left of the portal explaining that it needs three
+      levers to be activated in order for it to function.'
+    actionResponse: {fileID: 0}

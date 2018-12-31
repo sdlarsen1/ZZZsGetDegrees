@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd74b3a91ee3fa489d967fba002ec95, type: 3}
+  m_Name: PandaMaze
+  m_EditorClassIdentifier: 
+  noun: panda
+  description: The panda looks at you eagerly.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 446e16a25ca67ec468922c3000355650, type: 2}
+    textResponse: "Hello again, friend!\n\nI see you\u2019ve completed the first challenge!
+      I knew you would! Well, to be honest, you didn't have much of a choice. I hadn't
+      come up with a backup plan in case you failed.\n\nAnyway, glad you made it.
+      All in one piece, right? .... Ah, I forgot you can't talk.\n\nNow, to continue
+      this journey of self discovery, I have brought you to ScioLie, a building that
+      even I, with all my panda wisdom, have only ever successfully navigated once.
+      I think.\n\nThe exit is right behind me, however it's locked. The only way through
+      is to either change how the programmers coded the room, or to find and flip
+      the three, and ONLY three, levers located throughout the building. Call it an
+      exercise to practice your memorization skills. Or you can cheat and draw a map,
+      but you'll only be cheating yourself. I think that's what I'm supposed to say.
+      \n\nGood luck!"
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 692edf8698efc604abe2a49eeba67ad7, type: 2}
+    textResponse: The panda keeps silently waiting for you to talk to it. It might
+      be shy.
+    actionResponse: {fileID: 0}

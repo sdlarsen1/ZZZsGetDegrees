@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd74b3a91ee3fa489d967fba002ec95, type: 3}
+  m_Name: Elevator
+  m_EditorClassIdentifier: 
+  noun: elevator
+  description: There is a small elevator sunken into the wall.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 692edf8698efc604abe2a49eeba67ad7, type: 2}
+    textResponse: The roof light flickers as you walk towards the elevator. There
+      is a faint creaking sound as you put your foot over the threshold.
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: c119f94d9f9f8cf4f8bae3ace55b0b5c, type: 2}
+    textResponse: "You climb into the elevator, which is barely wide enough to hold
+      you. The doors close, one after another, grinding to a mechanical halt. The
+      elevator starts moving downwards, with sparks suddenly raining down on you from
+      the light. Amidst a choking back smoke, the grinding begins to rise in pitch
+      as the elevator begins to descend in a horrid mockery of modern transport. Everything
+      begins to shake apart, the doors fly off their hinges. You dive through the
+      first gap you can see, and... \n\nYou are back in the same hallway."
+    actionResponse: {fileID: 0}

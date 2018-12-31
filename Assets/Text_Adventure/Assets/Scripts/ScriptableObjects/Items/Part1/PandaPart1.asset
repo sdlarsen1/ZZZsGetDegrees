@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd74b3a91ee3fa489d967fba002ec95, type: 3}
+  m_Name: PandaPart1
+  m_EditorClassIdentifier: 
+  noun: panda
+  description: The panda watches you with its beady eyes.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 446e16a25ca67ec468922c3000355650, type: 2}
+    textResponse: "The panda speaks:\n\nHello, *waves* Now I know what you\u2019re
+      wondering: Where am I? Where is everybody? Who are you?  Why can a panda talk?
+      Why did you say \u201C*waves*\u201D out loud? How did you pronounce \u201C *
+      \u201D?  Why can\u2019t I say anything? \r\n\r\nWell due to streamlined dialogue
+      programming, I\u2019ll do all the talking here. \r\nNow to answer your other
+      questions.\r\nYou are exactly where you left off, at the University of [redacted].
+      You fell asleep, ya silly goose!\r\n\r\nSo now you\u2019re in a dream and I
+      am here to help guide you with your inner demons, and faults, to solve for the
+      true meaning of friendship.\r\n... wait there were supposed to be two of you\u2026\r\nto
+      solve for the true meaning of being a 4.0 student.\r\n\r\nI am the magnificent
+      panda, Express. The Spirit of Students past, present and future. Due to a pending
+      lawsuit, and a cease and desist order, we had to combine into one spirit.\r\n\r\nYour
+      task is to explore the campus to figure out the clues and puzzle on why you\u2019re
+      here. Once you figure out all the puzzles, I am contractually obligated to let
+      you wake up.\r\n\r\nNow, you might be wondering \u201CExpress, why can\u2019t
+      I just wake up to continue my assignment?\u201D and I have a perfectly good
+      answer: this dream is worth 40%. Now go!\r\n"
+    actionResponse: {fileID: 0}
+  - inputAction: {fileID: 11400000, guid: 692edf8698efc604abe2a49eeba67ad7, type: 2}
+    textResponse: The panda silently continues to look at you. It silently toots,
+      and waves you over. Maybe Talk to it.
+    actionResponse: {fileID: 0}

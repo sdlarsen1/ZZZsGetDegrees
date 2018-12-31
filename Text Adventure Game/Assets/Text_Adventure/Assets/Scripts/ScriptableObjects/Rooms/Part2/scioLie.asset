@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: scioLie
+  m_EditorClassIdentifier: 
+  description: 'You don''t remember exactly how you wound up in this specific part
+    of the building, but before you is a long hallway of stability in the maze of
+    corridors known as ScioLie. The light from the elevator in the room is all that
+    makes you feel safe here.
+
+'
+  roomName: 
+  exits:
+  - keyString: south
+    exitDescription: There is a door to the south.
+    valueRoom: {fileID: 11400000, guid: ac65736f9acb456479042d144c907549, type: 2}
+  - keyString: west
+    exitDescription: There is a door to the west.
+    valueRoom: {fileID: 11400000, guid: fb834c67f575fde4c9fbc81471307121, type: 2}
+  - keyString: north
+    exitDescription: There is a door to the north.
+    valueRoom: {fileID: 11400000, guid: 0e56903fa977eb040bda959a6c4c124f, type: 2}
+  - keyString: east
+    exitDescription: There is a door to the east.
+    valueRoom: {fileID: 11400000, guid: c12e3c39bb8e4494a861891ba3460c11, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: f940c5e75061d5f42a60a50ac9436890, type: 2}

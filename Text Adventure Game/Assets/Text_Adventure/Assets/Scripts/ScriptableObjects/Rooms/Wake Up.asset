@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: Wake Up
+  m_EditorClassIdentifier: 
+  description: 'You walk through the door and....
+
+
+    You wake up. It''s 9 p.m. in the library. There is drool over your math homework.
+    Your friend leans over and says "You forgot to carry the 2."
+
+
+
+
+    This has been an Invisible Men Game. We hope you enjoyed it. Type "exit" to quit
+    the game.
+
+
+    Credits:
+
+    Rishi Barnwall
+
+    Stephen Larsen
+
+    Liam McDonald
+
+    Otman Maoued
+
+    Michael Rijlaarsdam
+
+    David Hoeppner'
+  roomName: wakeup
+  exits: []
+  interactableObjectsInRoom: []

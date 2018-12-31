@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ac9ce4d57bbfaf438d2973c831fa8a0, type: 3}
+  m_Name: bioMazeE
+  m_EditorClassIdentifier: 
+  description: 'You enter a long hallway whose exterior windows are covered in multiple
+    layers of sticky-notes.
+
+'
+  roomName: bme
+  exits:
+  - keyString: north
+    exitDescription: There is a door to the north.
+    valueRoom: {fileID: 11400000, guid: a9ce4f0558a2016448c92e2071379e2f, type: 2}
+  - keyString: south
+    exitDescription: There is a door to the south.
+    valueRoom: {fileID: 11400000, guid: 3aeca12e06f735344b3c26d099bfe0f2, type: 2}
+  - keyString: east
+    exitDescription: There is a door to the east.
+    valueRoom: {fileID: 11400000, guid: ce8fac22909b0c44ea85ac45b7b2dc2a, type: 2}
+  interactableObjectsInRoom: []

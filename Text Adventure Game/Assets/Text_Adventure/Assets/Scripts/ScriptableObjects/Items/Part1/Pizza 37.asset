@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd74b3a91ee3fa489d967fba002ec95, type: 3}
+  m_Name: Pizza 37
+  m_EditorClassIdentifier: 
+  noun: pizza
+  description: The neon glow from Pizza 37 calls to you.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 692edf8698efc604abe2a49eeba67ad7, type: 2}
+    textResponse: "Pizza 37: a great source of mediocre, overpriced \u201Cfood\u201D.
+      You used to come here all the time in your first year, once even dropping an
+      entire paycheque in a week because you didn\u2019t want to deal with one of
+      the foreign food places. What a joke. You\u2019re smart enough now to mostly
+      buy from Quick Panda Foods which has a better money to food ratio. With any
+      luck you\u2019ve grown as a person since then, variety is the spice of life
+      and all that."
+    actionResponse: {fileID: 0}

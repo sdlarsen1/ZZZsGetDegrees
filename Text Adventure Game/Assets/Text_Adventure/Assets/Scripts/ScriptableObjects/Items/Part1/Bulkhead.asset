@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cd74b3a91ee3fa489d967fba002ec95, type: 3}
+  m_Name: Bulkhead
+  m_EditorClassIdentifier: 
+  noun: bulkhead
+  description: A bulkhead covers the end of the hallway.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 692edf8698efc604abe2a49eeba67ad7, type: 2}
+    textResponse: "Alright, you know for a fact that there is not supposed to be an
+      indestructible, un-bypassable doorway in this hallway, something is wrong. Hold
+      on, there appears to be a riddle and combination lock. \u201CA glutton, a cheat,
+      and a danger am I. What is the combination? (XX-XX-XX)\u201D. You get the distinct
+      feeling that this is meant to apply to you personally. That or the university
+      is the setting for a new Saw movie."
+    actionResponse: {fileID: 0}
